@@ -12,7 +12,7 @@ class Users {
         Console.WriteLine("=== Login ===");
         Console.ReadLine();
     }
-    //test Reg
+    
     public static void Register(){
         Console.Clear();
         Console.WriteLine("=== Register ===");
