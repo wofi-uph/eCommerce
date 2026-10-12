@@ -36,4 +36,31 @@
                 break;
         }
     }
+
+    public static void MenuUtama(){
+        Console.Clear();
+        Console.WriteLine("=== Menu Utama ===");
+        Console.WriteLine(lines35);
+        Console.WriteLine($"= {"1. Lihat Produk",-31} =");
+        Console.WriteLine($"= {"2. Cari/Filter Produk",-31} =");
+        Console.WriteLine($"= {"3. Keranjang",-31} =");
+        Console.WriteLine($"= {"4. Checkout",-31} =");
+        Console.WriteLine($"= {"5. Riwayat Transaksi",-31} =");
+        Console.WriteLine($"= {"6. Kelola Produk (Admin)",-31} =");
+        Console.WriteLine($"= {"7. Laporan Penjualan (Admin)",-31} =");
+        Console.WriteLine($"= {"0. Logout/Keluar",-31} =");
+        Console.WriteLine(lines35);
+        Console.Write("Pilih menu: ");
+        int choose = int.TryParse(Console.ReadLine(), out int result) ? result : -1;
+        switch (choose){
+            case 0:
+                MenuAwal();
+                break;
+            default:
+                Console.WriteLine("Pilihan tidak valid. Silakan coba lagi.");
+                Console.ReadKey();
+                MenuUtama();
+                break;
+        }
+    }
 }
