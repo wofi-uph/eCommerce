@@ -7,7 +7,6 @@ class Users {
 
     public static int userCount = 0;
     
-    // Test User
     public static void Login(){
         Console.Clear();
         Console.WriteLine("=== Login ===");
