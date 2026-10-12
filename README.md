@@ -46,4 +46,38 @@ Aplikasi Ecommerce Console Application adalah aplikasi berbasis console yang dig
     dotnet run
     ```
 
+## Contributing
+Jika Anda ingin berkontribusi pada proyek ini, silakan fork repository ini dan buat pull request. Pastikan untuk menambahkan fitur baru atau memperbaiki bug yang ada.
+
+### Cara Fork Repository
+1. Klik tombol "Fork" di pojok kanan atas halaman repository ini.
+2. Pilih akun GitHub Anda untuk menyimpan salinan repository.
+3. Setelah berhasil melakukan fork, clone repository hasil fork ke komputer Anda:
+
+    ```bash
+    git clone  https://github.com/wofihansamu/eCommerce.git
+    ```
+
+### Cara Membuat Pull Request
+1. Buat branch baru untuk fitur atau perbaikan bug yang ingin Anda tambahkan:
+    ```bash
+    git checkout -b nama-branch-anda
+    ```
+2. Lakukan perubahan pada kode sumber sesuai kebutuhan.
+3. Commit perubahan Anda:
+    ```bash
+    git commit -m "Deskripsi perubahan yang Anda buat"
+    ```
+4. Push branch Anda ke repository hasil fork:
+    ```bash
+    git push origin nama-branch-anda
+    ```
+5. Buka repository asli di GitHub dan klik tombol "New Pull Request".
+6. Pilih branch yang baru saja Anda buat dan klik "Create Pull Request".
+
+
+## License
+Proyek ini dilisensikan di bawah MIT License.
+
+
 
