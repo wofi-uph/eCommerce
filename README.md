@@ -55,7 +55,7 @@ Jika Anda ingin berkontribusi pada proyek ini, silakan fork repository ini dan b
 3. Setelah berhasil melakukan fork, clone repository hasil fork ke komputer Anda:
 
     ```bash
-    git clone  https://github.com/wofihansamu/eCommerce.git
+    git clone https://github.com/<username>/eCommerce.git
     ```
 
 ### Cara Membuat Pull Request
