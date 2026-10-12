@@ -4,6 +4,8 @@ class Users {
     public static string[] userName = new string[100];
     public static string[] userPassword = new string[100];
     public static string[] role = new string[100];
+
+    public static int userCount = 0;
     
     public static void Login(){
         Console.Clear();
