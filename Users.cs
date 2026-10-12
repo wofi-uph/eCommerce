@@ -1,5 +1,5 @@
 class Users {
-
+    // GOkd
     public static int[] userId = new int[100];
     public static string[] userName = new string[100];
     public static string[] userPassword = new string[100];
